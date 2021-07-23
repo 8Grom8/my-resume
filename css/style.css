@@ -104,6 +104,7 @@ body {
 
 .Capa_1 {
   fill:#FFFFFF;
+  margin-top: 10px;
 }
 .Capa_1:hover {
   fill:blueviolet;
@@ -206,39 +207,23 @@ body {
   font-size: 22px;
   line-height: 27px;
   color:#f8603a;
-  margin-bottom: 20px;
 }
+
 /*Contacts section*/
-.contacts-section-type {
-  font-weight: bold; 
-  font-style: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color:#f8603a;
-  margin-right: 8px;
-}
+
 .contacts-section-link {
   color:#FFFFFF;
   font-weight: normal; 
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
-  text-decoration: none; 
+  text-decoration: none;
+
 }
 .contacts-section-link:hover{
   color:blueviolet;
 }
-.contacts-section-mail {
-  color: #FFFFFF;
-  font-weight: normal; 
-  font-style: normal;
-  font-size: 14px;
-  line-height: 24px;
-  text-decoration: none;  
-}
-.contacts-section-mail:hover{
- color: blueviolet;
-}
+
 /*Tech skills section*/
 
 .tech-skills-list {
