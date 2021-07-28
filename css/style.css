@@ -105,8 +105,17 @@ body {
 .Capa_1 {
   fill:#FFFFFF;
   margin-top: 10px;
+    margin-right: 10px;
 }
 .Capa_1:hover {
+  fill:blueviolet;
+
+}
+.Capa_2 {
+  fill:#FFFFFF;
+  margin-top: 10px;
+}
+.Capa_2:hover {
   fill:blueviolet;
 }
 .my-projects-text:hover {
