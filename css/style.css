@@ -52,6 +52,7 @@ body {
 
 }
 .about-me-name {
+  position:relative;
   font-style: normal;
   font-weight: bold;
   font-size: 33px;
@@ -65,13 +66,15 @@ body {
 .about-me-name:hover::after,
 .about-me-name:focus::after,
 .about-me-name:active::after {
+  position: absolute;
+  width:100%;
   display: block;
   content:"";
   height: 3px;
   background: #FB6D3A;
   color: #FB6D3A;
   cursor: pointer;
-  font-size: 10px;
+
 }
 .about-me-description {
   width: 600px;
@@ -94,14 +97,16 @@ body {
   
 }
 
-.my-projects-link:hover {
+.my-projects-link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   color: #fff; 
 }
-
+.my-projects-link:hover{
+  color: blueviolet;
+}
 .Capa_1 {
   fill:#FFFFFF;
   margin-top: 10px;
@@ -118,12 +123,12 @@ body {
 .Capa_2:hover {
   fill:blueviolet;
 }
-.my-projects-text:hover {
+.my-projects-text {
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 18px;
   line-height: 24px;
-  color: #fff;
+  color: #FB6D3A;
   margin-left: 5px;
 }
 .my-projects-bracket {
