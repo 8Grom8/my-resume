@@ -17,10 +17,10 @@ body {
 
 .main-content-section {
   padding: 50px 50px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.3),
-  rgba(47, 48, 58, 0.3)),
+  background-image: linear-gradient(rgba(70, 81, 206, 0.8),
+  rgba(70, 81, 206, 0.8)),
   url("../img/3Kog4AasDjY.jpg");
-  background-color: #2F303A;
+  background-color: #1e2939;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -203,6 +203,8 @@ body {
 /* Sidebar section */
 
 .sidebar-section {
+  background-image: linear-gradient(rgba(33, 37, 73, 0.8),
+  rgba(70, 81, 206, 0.8));
   background-color: #1e2939;
   width: 370px;
   padding: 40px 0;
