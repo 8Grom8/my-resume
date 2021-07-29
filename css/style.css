@@ -103,7 +103,7 @@ body {
   color: #fff; 
 }
 .my-projects-link:hover{
-  color: blueviolet;
+  color: #f8603a;
 }
 .Capa_1 {
   fill:#FFFFFF;
@@ -111,7 +111,7 @@ body {
     margin-right: 10px;
 }
 .Capa_1:hover {
-  fill:blueviolet;
+  fill:#f8603a;
 
 }
 .Capa_2 {
@@ -119,7 +119,7 @@ body {
   margin-top: 10px;
 }
 .Capa_2:hover {
-  fill:blueviolet;
+  fill: #f8603a;
 }
 .my-projects-text {
   font-style: normal;
@@ -235,7 +235,7 @@ body {
 
 }
 .contacts-section-link:hover{
-  color:blueviolet;
+  color: #f8603a;
 }
 
 /*Tech skills section*/
