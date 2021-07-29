@@ -60,9 +60,7 @@ body {
   color: #FB6D3A; 
   text-decoration: none;
 }
-.name-link{
-  font-size: 16px;
-}
+
 .about-me-name:hover::after,
 .about-me-name:focus::after,
 .about-me-name:active::after {
